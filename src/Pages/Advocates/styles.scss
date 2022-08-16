@@ -1,0 +1,274 @@
+// advocates
+
+.advocates {
+  border-bottom: 1px solid #e0e7eb;
+  padding-bottom: 12px;
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    &__flex {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &__manage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    &__content {
+      width: 100%;
+      background: #ffffff;
+      border: 1px solid #e6e8ec;
+      border-radius: 10px;
+      padding: 24px;
+
+      &__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__date {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  &__activities_legend {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    &__item {
+      width: 26px;
+      height: 26px;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 12px;
+      color: #ffffff;
+
+      &__wrapper {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+
+  &__strength {
+    display: flex;
+
+    &__legend {
+      display: flex;
+      flex-direction: column;
+      gap: 36px;
+
+      &__item {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        &__top {
+          display: flex;
+          align-items: center;
+
+          &__ball {
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+
+    &__cahrt_Wrapper {
+      margin-left: 30px;
+      width: max-content;
+    }
+  }
+
+  &__items_wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+}
+
+// advocate card item
+
+.advocate-card-item {
+  width: 143px;
+  height: 181px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(146, 149, 152, 0.16);
+  padding: 10px;
+  position: relative;
+
+  &__dots {
+    margin-left: auto;
+    width: fit-content;
+    display: flex;
+    gap: 2px;
+
+    div {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background-color: #55a0d2;
+    }
+  }
+
+  &__image {
+    width: 104px;
+    height: 104px;
+    border-radius: 50%;
+    margin-top: 13px;
+    margin-bottom: 2px;
+    background-image: url("https://www.biography.com/.image/t_share/MTE4MDAzNDEwNzg5ODI4MTEw/barack-obama-12782369-1-402.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 13px auto 0 auto;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  &__menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 123px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(146, 149, 152, 0.16);
+    padding: 10px;
+
+    &__dots {
+      margin-left: auto;
+      width: fit-content;
+      display: flex;
+      gap: 2px;
+
+      div {
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background-color: #aabac2;
+      }
+    }
+
+    &__item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      cursor: pointer;
+
+      p {
+        white-space: nowrap;
+      }
+
+      &__wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+    }
+  }
+}
+
+// add advocate back button
+
+.add-advocate-back {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  svg {
+    margin-right: 24px;
+  }
+}
+
+// add advocate form
+
+.add-advocate-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+
+  padding-bottom: 43px;
+  border-bottom: 1px solid #e0e7eb;
+
+  &__upload-button {
+    width: 100%;
+    background-color: #117c1a;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #ffffff;
+    padding: 14px;
+  }
+}
+
+// create advocate link
+
+.create-advocate-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-right: 50px;
+
+  input {
+    height: 58px;
+  }
+
+  &__button {
+    width: 160px;
+    background-color: #117c1a;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #ffffff;
+    padding: 12px;
+  }
+}
+
+// advocate request list title
+
+.advocate-request-list {
+  &-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-title {
+    display: flex;
+    align-items: center;
+  }
+
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+  }
+}

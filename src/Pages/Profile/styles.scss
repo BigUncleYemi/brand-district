@@ -1,0 +1,82 @@
+// profile
+
+.profile {
+  &__image {
+    border: 2px solid #aabac2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 203px;
+    height: 203px;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+
+    &__item {
+    }
+
+    &__edit {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 59.75px;
+      height: 59.75px;
+      border-radius: 50%;
+      background-color: #55a0d2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &__balance {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+  }
+}
+
+.change-password-button {
+  background-color: #443df6;
+  padding: 12px 24px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.button {
+  &s_wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    width: fit-content;
+    gap: 30px;
+  }
+  &__delete {
+    background: #fcfcfc;
+    /* Red Tone */
+
+    border: 1px solid #c5292a;
+    padding: 12px 14px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #c5292a;
+  }
+
+  &__save {
+    background: #117c1a;
+    /* Red Tone */
+
+    border: 0.8px solid #117c1a;
+    padding: 12px 14px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+  }
+}

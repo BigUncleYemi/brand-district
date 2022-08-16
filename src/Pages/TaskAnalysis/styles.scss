@@ -1,0 +1,153 @@
+// task analysis top
+
+.task-analysis {
+  &-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 17px;
+  }
+
+  &-wrapper {
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 48, 73, 0.12);
+  }
+
+  &-content {
+    &-top {
+      display: flex;
+      justify-content: space-between;
+      padding: 16px 25px 16px 12px;
+
+      &-date {
+        display: flex;
+        align-items: center;
+
+        &-item {
+          display: flex;
+          align-items: center;
+          border: 1px solid #d4dce0;
+          border-radius: 60px;
+          background: #f7f7ff;
+          padding: 3px 17px;
+          cursor: pointer;
+
+          svg {
+            margin-left: 8px;
+          }
+        }
+      }
+    }
+
+    &-main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 23px;
+      padding-bottom: 16px;
+
+      &__wrapper {
+        width: 100%;
+        background: #fdfdff;
+        border: 1px solid #ebebeb;
+        border-radius: 13px;
+        padding: 18px 24px;
+      }
+
+      &__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px 20px;
+      }
+    }
+
+    &-bottom {
+      background: #fdfdff;
+      border: 1px solid #ebebeb;
+      border-radius: 13px;
+      width: 100%;
+      padding: 27px 24px;
+
+      &-top {
+        display: flex;
+        align-items: center;
+
+        &__date {
+          display: flex;
+          align-items: center;
+
+          svg {
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// counts
+.counts {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.arrow-count {
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+// progress
+
+.progress {
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 9px;
+  }
+
+  &__body {
+    background: #eff3f9;
+    border-radius: 9px;
+    width: 100%;
+    height: 10px;
+  }
+
+  &__step {
+    height: 10px;
+    background: #7f7fd5;
+    border-radius: 6px;
+  }
+}
+
+// fill box
+
+.fill-box {
+  display: flex;
+  align-items: center;
+
+  &_content {
+    border-radius: 5px;
+    margin-right: 9px;
+    width: 16px;
+    height: 16px;
+  }
+}
+
+// check
+
+.check {
+  display: flex;
+  align-items: center;
+
+  &__item {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    border-radius: 5px;
+  }
+}

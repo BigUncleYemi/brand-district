@@ -1,0 +1,133 @@
+// target goals
+
+.target-goals {
+  background: #ffffff;
+  box-shadow: 0px 40px 60px rgba(128, 144, 155, 0.25);
+  border-radius: 16px;
+  padding: 20px 0 12px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+// previous post item
+
+.previous-post-item {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 20px 60px rgba(128, 144, 155, 0.2);
+  border-radius: 14px;
+  width: 100%;
+  padding: 5px;
+
+  &__image {
+    width: 46px;
+    height: 70px;
+    border-radius: 8px;
+    margin-right: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &__text {
+  }
+}
+
+// post this week
+
+.post-this-week {
+  &__body {
+    background: #ffffff;
+    box-shadow: 0px 20px 60px rgba(128, 144, 155, 0.2);
+    border-radius: 16px;
+    padding: 14px 30px;
+    display: flex;
+  }
+
+  &__main {
+    margin-right: 6px;
+  }
+
+  &__image_Wrapper {
+    display: flex;
+    gap: 10px;
+    padding-left: 7px;
+  }
+
+  &__image {
+    width: 80px;
+    height: 53px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://www.biography.com/.image/t_share/MTE4MDAzNDEwNzg5ODI4MTEw/barack-obama-12782369-1-402.jpg");
+  }
+}
+
+// latest achievements
+
+.latest-achieveents {
+}
+
+// achievement card
+
+.achievement-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 40px 60px rgba(128, 144, 155, 0.25);
+  border-radius: 10px;
+  padding: 18px 0 8px 0;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+}
+
+// notification
+
+.notification-title {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+// notification item
+
+.notification-item {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+  }
+
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+
+  &__image {
+    width: 36px;
+    height: 36px;
+    border-radius: 4px;
+    margin-right: 14px;
+    background-image: url("https://www.biography.com/.image/t_share/MTE4MDAzNDEwNzg5ODI4MTEw/barack-obama-12782369-1-402.jpg");
+  }
+}
